@@ -9,20 +9,24 @@ import { useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
-  useGetAllJobs();
-  const { user } = useSelector(store => store.auth);
-  const navigate = useNavigate();
+  // Fetch all jobs using your custom hook
+  const { jobs } = useGetAllJobs() || { jobs: [] }
+
+  const { user } = useSelector(store => store.auth)
+  const navigate = useNavigate()
+
   useEffect(() => {
     if (user?.role === 'recruiter') {
-      navigate("/admin/companies");
+      navigate("/admin/companies")
     }
-  }, []);
+  }, [user, navigate])
+
   return (
     <div>
       <Navbar />
       <HeroSection />
       <CategoryCarousel />
-      <LatestJobs />
+      <LatestJobs jobs={jobs} />
       <Footer />
     </div>
   )
