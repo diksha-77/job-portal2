@@ -30,6 +30,9 @@ Job-Portal/
 │   └── server.js
 │
 └── README.md
+
+
+
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
 git clone https://github.com/your-username/job-portal.git
