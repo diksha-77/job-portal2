@@ -16,6 +16,9 @@ Frontend: React.js, HTML, CSS, JavaScript
 Backend: Node.js, Express.js
 Database: MongoDB
 Authentication: JSON Web Token (JWT)
+
+
+
 📂 Project Structure
 Job-Portal/
 │── frontend/
@@ -23,6 +26,9 @@ Job-Portal/
 │   ├── pages/
 │   └── App.js
 │
+
+
+
 │── backend/
 │   ├── routes/
 │   ├── controllers/
