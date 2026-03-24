@@ -1,59 +1,63 @@
-Overview
+# 💼 Job Portal Web Application
 
-A full-stack Job Portal web application that allows users to search and apply for jobs, while recruiters can post and manage job listings. 
-The platform provides a seamless and responsive user experience with secure authentication and efficient data handling.
+## 📌 Overview
 
-🚀 Features
-🔐 User Authentication (Login/Signup using JWT)
-👨‍💼 Recruiter Dashboard to post and manage jobs
-🔍 Job Search and Filtering functionality
-📄 Apply to jobs with ease
-📱 Responsive UI for all devices
-⚡ RESTful APIs for smooth communication between frontend and backend
+A full-stack Job Portal application that enables users to search and apply for jobs while allowing recruiters to post and manage job listings. The platform focuses on secure authentication, efficient data handling, and a responsive user experience.
 
-🛠️ Tech Stack
-Frontend: React.js, HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Database: MongoDB
-Authentication: JSON Web Token (JWT)
+---
 
+## 🚀 Features
 
+* 🔐 User Authentication using JWT (Login/Signup)
+* 👨‍💼 Recruiter Dashboard for posting and managing jobs
+* 🔍 Job Search and Filtering
+* 📄 Apply to jobs functionality
+* 📱 Fully responsive UI
+* ⚡ RESTful APIs for smooth frontend-backend communication
 
-📂 Project Structure
-Job-Portal/
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js, HTML, CSS, JavaScript
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **Authentication:** JSON Web Token (JWT)
+
+---
+
+## 📂 Project Structure
+
+```
+job-portal2/
 │── frontend/
-│   ├── components/
-│   ├── pages/
-│   └── App.js
-│
-
-
-
 │── backend/
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   └── server.js
-│
-└── README.md
+│── README.md
+```
 
+---
 
+## ⚙️ Setup Instructions
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/your-username/job-portal.git
-2️⃣ Navigate to project folder
-cd job-portal
-3️⃣ Setup Backend
+### Clone the repository
+
+git clone https://github.com/diksha-77/job-portal2.git
+
+### Backend Setup
+
 cd backend
 npm install
-npm start
-4️⃣ Setup Frontend
+node server.js
+
+### Frontend Setup
+
 cd frontend
 npm install
 npm start
-🌐 Usage
-Register/Login as a user or recruiter
-Browse available jobs
-Apply for jobs
-Recruiters can post, update, and delete job listings
+
+## 🔮 Future Improvements
+
+* Resume upload feature
+* Email notifications
+* Advanced job filtering
+* Admin panel
